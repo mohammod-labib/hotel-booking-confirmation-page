@@ -1,0 +1,211 @@
+
+body{
+  margin: 0;
+  background-color: hsl(35, 60%, 96%);
+}
+
+@font-face{
+  font-family: 'DMSans';
+ src :url('assets/fonts/dm-sans/DMSans-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face{
+  font-family: 'DMMono';
+ src :url('assets/fonts/dm-mono/DMMono-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Fraunces';
+ src :url('assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+}
+
+@font-face{
+  font-family: 'Fraunces-Italic';
+ src :url('assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+}
+
+
+
+.Sidebar{
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  left: 0;
+  width: 210px;
+  border-right: 1px solid hsl(33, 17%, 41%);
+}
+
+.maison{
+  color: hsl(15, 69%, 37%);
+}
+.logo{
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  align-items: left;
+  display: inline-flex;
+  justify-content: left;
+  border-bottom: 1px solid hsl(33, 17%, 41%);
+}
+
+.logo p{
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.logo img{
+  width: 25px;
+}
+
+.red-num{
+  position: absolute;
+  left: 170px;
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  text-align: center;
+  padding:1px ;
+  font-family:sans-serif;
+  font-size: 12px;
+  color: white;
+
+}
+#first-nav{
+  background-color: white;
+}
+.navbar{
+  margin:10px;
+}
+.navbar div{
+  display:flex;
+  gap: 5px;
+  align-items: center;
+  padding:8px 10px ;
+  margin-bottom: 5px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-family: 'DMSans';
+  color: hsl(0, 0%, 23%);
+
+}
+.navbar div:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.navbar img{
+  width: 18px;
+}
+
+
+
+
+.temperature{
+  position: relative;
+  top: 120px;
+  margin: 10px 15px;
+  background-color:  hsl(44, 84%, 75%);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 180px;
+  height: 100px;
+}
+.temperature img{
+  position: relative;
+  top: -30px;
+  right: -120px;
+  width: 70px;
+  object-fit: contain;
+  pointer-events: none;
+}
+.temp-heading{
+  position: relative;
+  top: -70px;
+  padding-left: 10px;
+  font-size: 11px;
+  font-family: 'DMMono';
+  color: hwb(0 29% 71%);
+}
+
+.temp{
+   position: relative;
+  top: -80px;
+  padding-left: 10px;
+  font-size: 22px;
+  font-family: 'Fraunces';
+  color: lab(0% 0 0);
+}
+
+.temp-footer{
+  position: relative;
+  top: -95px;
+  padding-left: 10px;
+  font-size: 11px;
+  font-family: 'DMMono';
+  color: hwb(0 29% 71%);
+}
+
+.footer{
+  color: hwb(0 38% 62%);
+  font-family: 'DMMono';
+  font-size: 11px;
+  margin: 10px 17px;
+  position: relative;
+  top: 120px;
+}
+
+
+
+
+
+.content{
+position: relative;
+ left: 250px;
+ top:-540px;
+}
+
+
+.booking{
+  color: hwb(0 38% 62%);
+  font-family: 'DMMono';
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.bienveneue{
+   color: lab(0% 0 0);
+  font-family: 'Fraunces';
+  font-size: 25px;
+  position: relative;
+  top: -15px;
+}
+.lucia{
+  color: hsl(15, 74%, 41%);
+  font-family: 'Fraunces-Italic';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recive-card{
+  background-color: #fffdfd;
+  transform: rotate(-5deg);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.192);
+  width:300px;
+}
