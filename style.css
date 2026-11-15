@@ -30,7 +30,6 @@ body{
   display: inline-flex;
   flex-direction: column;
   position: relative;
-  left: 3px;
   width: 210px;
   border-right: 1px solid hsl(33, 17%, 41%);
   
@@ -200,6 +199,13 @@ position: relative;
 
 /*hey 1*/
 
+
+  .main-card-grid{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex: 1;
+  }
 
 
 .recive-card{
