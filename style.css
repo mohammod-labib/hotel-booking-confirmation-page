@@ -30,9 +30,10 @@ body{
   display: inline-flex;
   flex-direction: column;
   position: relative;
-  left: 0;
+  left: 3px;
   width: 210px;
   border-right: 1px solid hsl(33, 17%, 41%);
+  
 }
 
 .maison{
@@ -217,9 +218,22 @@ position: relative;
 
 .hostCard{
    background-image: linear-gradient(45deg, hsl(15, 69%, 37%), hsl(22, 72%, 56%));
-  transform: rotate(-5deg);
+  transform: rotate(5deg);
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.192);
   width:300px;
+}
+
+.hostCard-heading{
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-hostCard{
+  position: relative;
+  top: -15px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'DMMono';
+  color: white;
 }
